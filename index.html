@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Color Picker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+    <h1>Simple Color Picker</h1>
+        <span class="inside"> <p>Pick you color here:</p>
+
+            <input type="color" name="color" id="main"  /></span>
+            
+            <div id="show">
+
+            </div>
+    
+   
+</div>
+<script>
+     
+    let color=document.getElementById("main");
+    document.getElementById("show").style.backgroundColor=color.value;
+     
+</script>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+.container{
+    text-align: center;
+   
+}
+
+
+p{
+    margin-top: 57px;
+    font-size: 22px;
+}
+#main{
+    margin-bottom: 45px;
+}
+#show
+{
+    border: 5px solid black;
+    height: 125px;
+    width: 177px;
+    position: relative;
+    left: 670px;
+    margin-top:35px;
+
+}
